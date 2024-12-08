@@ -1,0 +1,24 @@
+@import url("https://use.typekit.net/ars0xln.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BOILING';
+    src: url('/public/fonts/BOILING-BLACKDEMO.TTF') format('truetype'),
+}
+
+@font-face {
+	font-family: 'HUGOLERS';
+	src: url('/public/fonts/HUGOLERS STYLISH FREE.OTF') format('opentype'),
+}
+
+body {
+	@apply bg-backgroud-100 text-typo-100 text-base font-arboria
+}
+
+
+.circle {
+	@apply bg-backgroud-300 w-48 h-48 rounded-full absolute blur-[150px] lg:w-80 lg:h-80 lg:blur-[250px]
+}

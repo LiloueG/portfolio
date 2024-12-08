@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/prismic"],
 
-  css: ['~/assets/css/main.css'],
+  css: ['/public/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
