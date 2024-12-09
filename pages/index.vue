@@ -10,7 +10,7 @@
                                 <p class="text-2xl">AVAILABLE FOR PROJECTS</p>
                                 <span class="text-base">Liloue Guyot</span>
                             </li>
-                            <li><nuxt-link to="">WORKS</nuxt-link></li>
+                            <li><nuxt-link to="works">WORKS</nuxt-link></li>
                         </ul>
                     </header>
 
