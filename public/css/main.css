@@ -14,8 +14,13 @@
 	src: url('/public/fonts/HUGOLERS STYLISH FREE.OTF') format('opentype'),
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	@apply bg-backgroud-100 text-typo-100 text-base font-arboria
+	@apply bg-backgroud-100 text-typo-100 text-base font-arboria;
+	 
 }
 
 

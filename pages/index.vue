@@ -5,7 +5,7 @@
                 <section class="relative h-screen bg-image px-5">
                     <header class="w-full flex justify-end lg:justify-normal">
                         <ul class="text-base flex flex-col gap-5 text-right py-10 lg:grid lg:grid-cols-3 lg:justify-between lg:w-full lg:text-7xl xl:text-8xl lg:py-0">
-                            <li class="lg:text-left"><nuxt-link to="">INFOS</nuxt-link></li>
+                            <li class="lg:text-left"><nuxt-link to="#infos">INFOS</nuxt-link></li>
                             <li class="hidden lg:flex flex-col justify-center text-center">
                                 <p class="text-2xl">AVAILABLE FOR PROJECTS</p>
                                 <span class="text-base">Liloue Guyot</span>
@@ -83,7 +83,7 @@
                     </div>
                 </section>
 
-                <Footer/>
+                <Footer id="infos"/>
             </main>
         </template>
     </div>
