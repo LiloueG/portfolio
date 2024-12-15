@@ -12,7 +12,7 @@
 				<h3 class="font-boiling text-3xl md:text-4xl lg:text-6xl">SOCIAL MEDIA</h3>
 				<ul class="flex flex-col gap-5 pl-5 lg:gap-8 lg:pl-10">
 					<li><NuxtLink to="https://www.linkedin.com/in/liloue-guyot-681987292/" class="flex gap-5"><IconsLinkedin class="w-6 h-6 lg:w-10 lg:h-10"/>Liloue GUYOT</NuxtLink></li>
-					<li><NuxtLink to="" class="flex gap-5"><IconsInstagram class="w-6 h-6 lg:w-10 lg:h-10"/>Instagram</NuxtLink></li>
+					<li><NuxtLink to="https://www.instagram.com/evaneoww/" class="flex gap-5"><IconsInstagram class="w-6 h-6 lg:w-10 lg:h-10"/>evaneoww</NuxtLink></li>
 					<li><NuxtLink to="https://github.com/LiloueG" class="flex gap-5"><IconsGithub class="w-6 h-6 lg:w-10 lg:h-10"/> LiloueG</NuxtLink></li>
 				</ul>
 			</div>
