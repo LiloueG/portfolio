@@ -10,7 +10,7 @@
                                 <p class="text-2xl">AVAILABLE FOR PROJECTS</p>
                                 <span class="text-base">Liloue Guyot</span>
                             </li>
-                            <li><nuxt-link to="works">WORKS</nuxt-link></li>
+                            <li><nuxt-link to="/works">WORKS</nuxt-link></li>
                         </ul>
                     </header>
 
@@ -79,7 +79,7 @@
                     </div>
 
                     <div class="min-h-screen max-w-[1440px] pb-96 mx-auto flex flex-col gap-44">
-                        <CardProject v-for="document in documents" :key="document.uid" :document="document"/>
+                        <CardProject v-for="document in latestThreeProjects" :key="document.uid" :document="document"/>
                     </div>
                 </section>
 
@@ -91,9 +91,23 @@
 
 <script setup lang="ts">
 const prismic = usePrismic();
-const documents = await prismic.client.getAllByType('project', {
-    pageSize: 10,
+
+// Récupérer tous les projets
+const documents = await prismic.client.getAllByType('project');
+
+// Trier les projets par le champ 'release' en ordre décroissant
+const sortedDocuments = documents.sort((a, b) => {
+  const dateA = a.data.release ? new Date(a.data.release).getTime() : 0;
+  const dateB = b.data.release ? new Date(b.data.release).getTime() : 0;
+  return dateB - dateA;
 });
+
+// Limiter aux 3 derniers projets
+const latestThreeProjects = sortedDocuments.slice(0, 3);
+
+console.log(latestThreeProjects); // Affiche les 3 derniers projets
+
+
 
 const latestWork = documents.reduce((latest, current) => {
   return current?.data?.release && latest?.data?.release && new Date(current.data.release) > new Date(latest.data.release) ? current : latest;
