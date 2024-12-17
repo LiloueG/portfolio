@@ -78,7 +78,7 @@
                         <h2 class="font-boiling text-center text-3xl md:text-6xl lg:text-9xl">RECENT WORKS</h2>
                     </div>
 
-                    <div class="min-h-screen max-w-[1440px] pb-96 mx-auto flex flex-col gap-44">
+                    <div class="min-h-screen max-w-[1440px] pb-96 mx-auto  flex flex-col gap-44">
                         <CardProject v-for="document in latestThreeProjects" :key="document.uid" :document="document"/>
                     </div>
                 </section>
