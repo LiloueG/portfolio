@@ -7,7 +7,7 @@
 	<Footer/>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts" >
 import { components } from "~/slices";
 
 const prismic = usePrismic();
