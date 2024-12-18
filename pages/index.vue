@@ -28,9 +28,9 @@
                         <div class="w-full text-center flex flex-col gap-2">
                             <p class="text-sm lg:text-2xl">WORKING ON PROJECTS FOR</p>
                             <div class="font-boiling flex justify-center items-center gap-3 text-lg lg:text-3xl lg:gap-5">
-                                <h3>DIGITAL</h3>
-                                <h3>VISUAL CREATION</h3>
-                                <h3>DESIGN</h3>
+                                <p>DIGITAL</p>
+                                <p>VISUAL CREATION</p>
+                                <p>DESIGN</p>
                             </div>
                         </div>
                     </section>
