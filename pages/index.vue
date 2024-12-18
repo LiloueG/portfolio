@@ -21,7 +21,7 @@
                     <section class="absolute top-1/2 translate-y-[-50%] left-1/2 translate-x-[-50%] w-full flex flex-col px-5 gap-20">
                         <div class="w-full flex justify-center">
                             <h1>
-                                <img src="../public/logo.svg" alt="" class="lg:w-72">
+                                <img src="../public/logo.svg" alt="" class="lg:w-72 w-24 h-24">
                             </h1>
                         </div>
 
