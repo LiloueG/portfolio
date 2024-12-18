@@ -19,6 +19,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+       htmlAttrs: {
+         lang: 'fr', // Remplace 'fr' par la langue de ton site
+        },
       title: "Portfolio de Liloue Guyot - Webdesign et Création Numérique",
       meta: [
         {
