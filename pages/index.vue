@@ -116,10 +116,11 @@ const latestWork = documents.reduce((latest, current) => {
 
 <style scoped>
 .bg-image {
-    background-image: url('/img/hero.png');
+    background-image: url('/img/hero.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .color-span span {

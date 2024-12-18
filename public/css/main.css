@@ -10,8 +10,9 @@
 }
 
 @font-face {
+	font-display: swap;
 	font-family: 'HUGOLERS';
-	src: url('/public/fonts/HUGOLERS STYLISH FREE.OTF') format('opentype'),
+	src: url('/public/fonts/HUGOLERS STYLISH FREE.OTF') format('opentype');
 }
 
 html {
