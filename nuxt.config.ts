@@ -27,9 +27,6 @@ export default defineNuxtConfig({
             "Bienvenue sur mon portfolio ! Je suis Liloue Guyot, designer graphique spécialisée en webdesign et création numérique. Découvrez mes projets, ma passion pour l'illustration et mes compétences en design interactif.",
         },
       ],
-      link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      ]
     },
   },
 });
