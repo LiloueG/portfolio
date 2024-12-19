@@ -17,5 +17,9 @@
 				</ul>
 			</div>
 		</div>
+		<div class="text-center py-10">
+			<h3>Mention légale</h3>
+			<p>Ce portfolio a été réalisé par Liloue Guyot dans le cadre d'un projet de Semestre 3</p>
+		</div>
 	</footer>
 </template>
